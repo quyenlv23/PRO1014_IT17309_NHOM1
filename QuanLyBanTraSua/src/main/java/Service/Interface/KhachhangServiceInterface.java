@@ -4,13 +4,16 @@
  */
 package Service.Interface;
 
-import DomainModel.Size;
+import DomainModel.Khachhang;
 import java.util.List;
 
 /**
  *
- * @author ADMIN
+ * @author mr.quyen
  */
-public interface SizeServiceInterface {
-    public List<Size> getAllSize();
+public interface KhachhangServiceInterface {
+    public List<Khachhang> getallKH();
+    public void ADDKH();
+    
+    
 }
